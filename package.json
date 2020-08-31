@@ -14,6 +14,7 @@
   "dependencies": {
     "ask-sdk": "2.9.0",
     "ask-sdk-express-adapter": "2.1.0",
+    "axios": "0.20.0",
     "express": "4.17.1"
   },
   "devDependencies": {
@@ -36,7 +37,6 @@
       "pre-commit": "lint-staged"
     }
   },
-
   "lint-staged": {
     "*.{js,ts,tsx}": [
       "eslint --fix"
